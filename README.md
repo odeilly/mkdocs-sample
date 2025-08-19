@@ -2,7 +2,7 @@
 
 ## 基本
 
-```
+```sh
 pip install mkdocs
 ```
 
