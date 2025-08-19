@@ -22,6 +22,7 @@ theme:
     - navigation.instant
     - navigation.sections
     - navigation.top
+    - navigation.footer
     - toc.integrate
     - content.code.copy        # コードコピー ボタン
     - content.tabs.link        # タブ連動
@@ -40,6 +41,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true    # タブをモダンな見た目に
   - pymdownx.superfences       # コードブロック内でもOKにする
+
+extra:
+  generator: false
+copyright: "&copy; Odeilly"
 
 plugins:
   - search
