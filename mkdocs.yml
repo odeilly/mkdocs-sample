@@ -25,6 +25,7 @@ theme:
     - toc.integrate
     - content.code.copy      # コードコピー ボタン
     - content.tabs.link      # タブ連動
+    - navigation.external    # 外部リンク検知
 
 markdown_extensions:
   - admonition               # 補足/警告などのボックス
@@ -42,6 +43,11 @@ markdown_extensions:
 
 plugins:
   - search
+  - open-in-new-tab:
+      add_icon: true
+
+extra_javascript:
+  - js/add-noreferrer.js
 
 # nav:
 #   - Home: index.md
