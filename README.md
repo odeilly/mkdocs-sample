@@ -35,3 +35,9 @@ pip install mkdocs-snippets
 ```sh
 pip install mkdocs-plantuml-plugin
 ```
+
+### 外部リンクの target=_blank
+
+```sh
+pip install mkdocs-open-in-new-tab
+```
