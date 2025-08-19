@@ -23,23 +23,23 @@ theme:
     - navigation.sections
     - navigation.top
     - toc.integrate
-    - content.code.copy      # コードコピー ボタン
-    - content.tabs.link      # タブ連動
-    - navigation.external    # 外部リンク検知
+    - content.code.copy        # コードコピー ボタン
+    - content.tabs.link        # タブ連動
+    - navigation.external      # 外部リンク検知
 
 markdown_extensions:
-  - admonition               # 補足/警告などのボックス
-  - pymdownx.details         # 折りたたみ
-  - pymdownx.superfences     # コードフェンス拡張（Mermaid など）
+  - admonition                 # 補足/警告などのボックス
+  - pymdownx.details           # 折りたたみ
+  - pymdownx.superfences       # コードフェンス拡張（Mermaid など）
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - tables
-  - attr_list                # {#id .class} や target/_blank 付与
+  - attr_list                  # {#id .class} や target/_blank 付与
   - toc:
       permalink: true
   - pymdownx.tabbed:
-      alternate_style: true   # タブをモダンな見た目に
-  - pymdownx.superfences      # コードブロック内でもOKにする
+      alternate_style: true    # タブをモダンな見た目に
+  - pymdownx.superfences       # コードブロック内でもOKにする
 
 plugins:
   - search
