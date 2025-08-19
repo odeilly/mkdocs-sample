@@ -1,30 +1,36 @@
-# pip install
+# MkDocs サンプル
 
-## 基本
+## URL
+
+<https://odeilly.github.io/mkdocs-sample/>
+
+## pip install
+
+### 基本
 
 ```sh
 pip install mkdocs
 ```
 
-## Material テーマ
+### Material テーマ
 
 ```sh
 pip install mkdocs-material
 ```
 
-## Markdown 拡張
+### Markdown 拡張
 
 ```sh
 pip install pymdown-extensions
 ```
 
-## ソースファイルのインポート
+### ソースファイルのインポート
 
 ```sh
 pip install mkdocs-snippets
 ```
 
-## PlantUML
+### PlantUML
 
 ```sh
 pip install mkdocs-plantuml-plugin
