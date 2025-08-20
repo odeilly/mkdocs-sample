@@ -15,6 +15,10 @@
 
 - [MkDocsを使って、簡単にドキュメント公開♪](https://qiita.com/yagizo/items/fef66728f97b866a3bee)
 
+### その他
+
+- [MkDocs拡張機能 - 黒鳥のメモ](https://kurotorimkdocs.gitlab.io/kurotorimemo/040-Documents/MkDocs/Extension/)
+
 ## Commands
 
 - `mkdocs new [dir-name]` - Create a new project.
